@@ -43,7 +43,7 @@ function Address() {
             <input
               onChange={(e) => setFullName(e.target.value)}
               type="text"
-              placeholder="Arpita Pathak"
+              placeholder="Sudipa Acharya"
               value={fullName}
             />
           </InputContainer>
@@ -136,7 +136,7 @@ const FormContainer = styled.form`
     height: 33px;
     width: 250px;
     margin-top: 20px;
-    color:white;
+    color: white;
     background-color: rgb(244, 51, 151);
     border: none;
     outline: none;
@@ -163,7 +163,7 @@ const InputContainer = styled.div`
     margin-top: 5px;
 
     &:hover {
-      border: 1px solid palevioletred;;
+      border: 1px solid palevioletred;
     }
   }
 `;
