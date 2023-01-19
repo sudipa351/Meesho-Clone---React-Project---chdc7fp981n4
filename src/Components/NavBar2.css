@@ -1,0 +1,25 @@
+.home_nav {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 90px;
+    border-top: 1.5px solid rgb(206, 206, 206);
+    border-bottom: 1.5px solid rgb(206, 206, 206);
+    padding: 20px 20px;
+    position:sticky;
+    top:80px;
+    z-index: 4000;
+    background-color: rgb(234, 237, 237);
+}
+
+.home_link {
+    color: #000;
+    text-decoration: none;
+}
+
+.home_link:hover {
+    color: palevioletred;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(244, 51, 151);
+}
