@@ -21,7 +21,7 @@ function SignUp() {
   return (
     <Container>
       <Logo onClick={() => navigate("/")}>
-        <img src='https://etimg.etb2bimg.com/photo/87203105.cms' alt="" />
+        <img src="https://etimg.etb2bimg.com/photo/87203105.cms" alt="" />
       </Logo>
       <FormContainer>
         <h3>Sign-Up</h3>
@@ -29,7 +29,7 @@ function SignUp() {
           <p>FullName</p>
           <input
             type="text"
-            placeholder="Arpita Pathak"
+            placeholder="Sudipa Acharya"
             onChange={(e) => setFullName(e.target.value)}
             value={fullName}
           />
